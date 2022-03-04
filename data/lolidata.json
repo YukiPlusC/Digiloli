@@ -158,8 +158,8 @@
     "corDoCabelo": "Loiro",
     "corDoOlho": "Rosa",
     "classe": "Royal Guard",
-    "patk": 1048,
-    "matk": 885,
+    "patk": 1057,
+    "matk": 903,
     "spd": 1002,
     "pet": "Gatin",
     "champion": 1,
@@ -168,7 +168,7 @@
     "name": "Eiko",
     "esposa": 2,
     "casada": 1,
-    "hlt": 124
+    "hlt": 127
   },
   {
     "username": "rambinozinho",
@@ -179,7 +179,7 @@
     "corDoOlho": "Vermelho",
     "classe": "Demonlord-Templar",
     "patk": 652,
-    "matk": 668,
+    "matk": 686,
     "spd": 663,
     "pet": "Mahoraga",
     "champion": 1,
@@ -188,7 +188,7 @@
     "name": "Anya",
     "esposa": 1,
     "casada": 1,
-    "hlt": 19
+    "hlt": 21
   },
   {
     "username": "rangaanarkista",
@@ -198,7 +198,7 @@
     "corDoCabelo": "Castanho",
     "corDoOlho": "Preto",
     "classe": "Demonlord-Archmage",
-    "patk": 320,
+    "patk": 326,
     "matk": 1199,
     "spd": 453,
     "pet": "Cachorrin",
@@ -208,7 +208,7 @@
     "name": "Hina",
     "esposa": 10,
     "casada": 1,
-    "hlt": 73
+    "hlt": 75
   },
   {
     "username": "main_kagura",
@@ -1020,7 +1020,7 @@
     "classe": "Cavaleira",
     "patk": 108,
     "matk": 116,
-    "spd": 93,
+    "spd": 97,
     "pet": "Fadinha",
     "champion": 0,
     "lvl": 2,
@@ -1379,7 +1379,7 @@
     "corDoOlho": "Amarelo",
     "classe": "Novata",
     "patk": 6,
-    "matk": 16,
+    "matk": 17,
     "spd": 11,
     "pet": "Nenhum",
     "champion": 0,
