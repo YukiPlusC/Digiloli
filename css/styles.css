@@ -48,3 +48,28 @@ body{
 	display: flex;
 	justify-content: center;
 }
+
+#select-loli-container{
+	display: flex;
+	padding-top: 40px;
+	align-items: center;
+	flex-direction: column;
+}
+
+#select-loli{
+	width: 200px;
+}
+
+#loli-result{
+	display: flex;
+	padding-top: 40px;
+	padding-left: 200px;
+	flex-direction: column;
+}
+
+#loli-result div{
+	width: 500px;
+	padding: 6px;
+	border: #fff 4px solid;
+	border-radius: 10px;
+}
