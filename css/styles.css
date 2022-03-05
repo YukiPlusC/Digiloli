@@ -5,7 +5,7 @@
 }
 
 body{
-	background: #89CFF0
+	background: #89CFF0;
 }
 
 .main-header{
@@ -29,7 +29,6 @@ body{
 	text-decoration: none;
 	font-size: 40px;
 	color: #fff;
-	padding: 0px 40px 2px 40px;
 }
 
 .navbar a:hover{
