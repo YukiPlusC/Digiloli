@@ -18,6 +18,7 @@ function DisplayLoli() {
 	if (lolix.value==='loli0') {document.getElementById('loli-result').innerHTML = ``;return;}
 	let esposa = lolidata[(lolix.value).substr(4)]['esposa']=="Ninguém" ? "Ninguém":lolidata[(lolix.value).substr(4)]['esposa']=='???' ? '???':
 	lolidata[lolidata[(lolix.value).substr(4)]['esposa']]['name'] + ' (' + lolidata[lolidata[(lolix.value).substr(4)]['esposa']]['display-name'] + ')';
+	let podertotal = lolidata[(lolix.value).substr(4)]['patk'] + lolidata[(lolix.value).substr(4)]['matk'] + lolidata[(lolix.value).substr(4)]['spd'];
 	document.getElementById('loli-result').innerHTML = `
 		<div>
 		<p>Parceiro: ${lolidata[(lolix.value).substr(4)]['display-name']}</p>
@@ -30,6 +31,8 @@ function DisplayLoli() {
 		<p>Ataque Físico: ${lolidata[(lolix.value).substr(4)]['patk']}</p>
 		<p>Ataque Mágico: ${lolidata[(lolix.value).substr(4)]['matk']}</p>
 		<p>Velocidade: ${lolidata[(lolix.value).substr(4)]['spd']}</p>
+		<p>Poder total: ${podertotal}</p>
+		<p>Pet: ${lolidata[(lolix.value).substr(4)]['pet']}</p>
 		<p>Esposa: ${esposa}</p>
 		</div>
 	`;
