@@ -96,7 +96,7 @@ fileSelector.addEventListener('change', (x) => {
     reader.onload = (y) => {
         file = y.target.result;
         if (!file.startsWith('[') || !file.includes('"') || !file.endsWith(']')) {alert('Wrong or corrupted file');}
-        else {blend = JSON.parse(y.target.result);document.getElementById("lista").innerHTML = JSON.stringify(blend, null, 1);}
+        else {blend = JSON.parse(y.target.result);localStorage.heroes = JSON.stringify(blend);document.getElementById("lista").innerHTML = JSON.stringify(blend, null, 1);}
     }
 });
 
